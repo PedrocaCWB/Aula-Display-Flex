@@ -1,0 +1,32 @@
+@import url('variable.css');
+*{
+    padding: 0 auto;
+    margin: 0 auto;
+}
+body{
+    background-image: url(/img/images.png);
+    
+
+}
+ul li{
+    list-style-type: none;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+    
+.menu{
+    display: flex;
+    justify-content: center;
+}
+.menu__page{
+    height: var(--image-size);
+    justify-content: center;
+    display: block;
+    margin: 0 auto;
+   
+    /* size: var(--image-size); */
+}
